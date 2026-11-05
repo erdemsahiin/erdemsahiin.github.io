@@ -56,7 +56,7 @@ h3 { margin-top: .4rem; font-size: clamp(1.4rem, 2.8vw, 1.9rem); }
 .diagram strong, .diagram small { display: block; }
 .diagram small { color: var(--muted); font-size: .8rem; }
 
-.work, .pdf-section, .about { border-top: 1px solid var(--line); }
+.work, .about { border-top: 1px solid var(--line); }
 .section-heading { display: flex; align-items: end; justify-content: space-between; flex-wrap: wrap; gap: .75rem 1.5rem; padding: 2.2rem 0 1.3rem; }
 .section-heading > p { max-width: 37ch; color: var(--muted); }
 .project, .about { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr); gap: 1.1rem clamp(1.5rem, 5vw, 4.5rem); }
@@ -81,10 +81,6 @@ h3 { margin-top: .4rem; font-size: clamp(1.4rem, 2.8vw, 1.9rem); }
 .report-mark { stroke: #6a87b1; stroke-width: 2; stroke-linecap: round; }
 .report-bars { stroke: #6894d3; stroke-width: 8; }
 
-.pdf-section { margin-top: 1.8rem; padding-bottom: 2.2rem; }
-.pdf-preview { background: var(--paper); border: 1px solid var(--line); border-radius: .55rem; }
-.pdf-preview summary { padding: .85rem 1rem; color: var(--accent); cursor: pointer; font-weight: 680; }
-.pdf-preview iframe { display: block; width: 100%; height: clamp(22rem, 72vh, 54rem); border: 0; border-top: 1px solid var(--line); }
 .about { padding-block: 2.3rem; }
 .about p:not(.eyebrow) { max-width: 52ch; color: var(--muted); }
 .text-link { display: inline-block; margin-top: .65rem; color: var(--accent); font-weight: 680; }
