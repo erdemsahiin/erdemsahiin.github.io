@@ -75,11 +75,6 @@ h3 { margin-top: .4rem; font-size: clamp(1.4rem, 2.8vw, 1.9rem); }
 .flow li { position: relative; display: grid; place-items: center; }
 .flow li + li::before { position: absolute; right: calc(100% + .15rem); color: var(--accent); content: "›" / ""; }
 .branches { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .45rem; }
-.report-outline { display: block; width: 100%; height: auto; max-height: 5rem; }
-.report-frame { fill: var(--paper); stroke: var(--line); }
-.report-rule { stroke: var(--line); }
-.report-mark { stroke: #6a87b1; stroke-width: 2; stroke-linecap: round; }
-.report-bars { stroke: #6894d3; stroke-width: 8; }
 
 .about { padding-block: 2.3rem; }
 .about p:not(.eyebrow) { max-width: 52ch; color: var(--muted); }
